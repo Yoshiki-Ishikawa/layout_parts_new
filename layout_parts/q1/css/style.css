@@ -2,14 +2,18 @@
 /* 回答はここに書いてね */
 
 .box{
+  margin-top:20px;
+}
+
+.q1{
   background-color: #eff3f4;
   width: 940px;
   padding: 20px;
-  margin: 20px auto;
+  margin: 0 auto;
   box-sizing: border-box;
 }
 
-.q1_clearfix::after{
+.q1＿clearfix::after{
   display: block;
   content: "";
   clear: both;
@@ -28,7 +32,7 @@
 }
 
 
-.q1__content__text{
+.q1＿content＿text{
   border: 10px solid #022336;
   background-color: #eaf4ff;
   width: 230px;
