@@ -7,7 +7,7 @@
   border:1px solid #dedede;
 }
 
-th{
+.q3_table th{
   color: #fff;
   background-color: #2244aa;
   border:1px solid #dedede;
@@ -16,15 +16,15 @@ th{
   line-height: 26px;
 }
 
-tr:nth-child(2n+1){
+tr:nth-child(even){
   background-color: #ecf1f2;
 }
 
-tr:last-child{
+.q3_table tbody tr:last-child{
   border-top: 2px dashed #000;
 }
 
-td{
+.q3_table td{
   border:1px solid #dedede;
   text-align: center;
   font-size: 16px;

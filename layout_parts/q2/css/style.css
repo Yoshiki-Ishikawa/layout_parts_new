@@ -2,7 +2,7 @@
 
 /* 回答はここに書いてね */
 
-.q2{
+.q2_box{
   width: 940px;
   background-color: #eff3f4;
   margin: 0 auto;
@@ -12,8 +12,8 @@
 
 .q2_clearfix::after{
   content: "";
-    display: block;
-    clear: both;
+  display: block;
+  clear: both;
 }
 
 .balloon{
@@ -25,7 +25,6 @@
 .q2_content_text{
   font-size: 18px;
   line-height: 22px;
-  text-align: justify;
   word-break: break-all;
 }
 
