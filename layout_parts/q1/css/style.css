@@ -1,20 +1,20 @@
 @charset "UTF-8";
 /* 回答はここに書いてね */
 
-.q1_box{
+.q1_box {
   background-color: #eff3f4;
   width: 940px;
   padding: 20px;
   margin: 0 auto;
   box-sizing: border-box;
 }
-.q1＿clearfix::after{
+.q1＿clearfix::after {
   display: block;
   content: "";
   clear: both;
 }
 
-.q1＿content＿box{
+.q1＿content＿box {
   border: 20px solid #3274ae;
   width: 270px;
   box-sizing: border-box;
@@ -22,12 +22,12 @@
   margin-left: 20px;
 }
 
-.q1＿content＿box:first-child{
+.q1＿content＿box:first-child {
   margin-left: 0;
 }
 
 
-.q1＿content＿text{
+.q1＿content＿text {
   border: 10px solid #022336;
   background-color: #eaf4ff;
   padding: 20px;
