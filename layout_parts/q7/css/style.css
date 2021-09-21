@@ -1,43 +1,43 @@
 @charset "UTF-8";
 
 /* 回答はここに書いてね */
-.q7--float .q7__box{
+.Q7--float-side .Q7--textbox{
   width: 225px;
   font-size: 16px;
   box-sizing: border-box;
 }
-.q7--float .q7__inner::after{
+.Q7--float-side .Q7--innerbox::after{
   content: "";
   display: block;
   clear: both;
 }
-.q7--float .q7__box:first-child{
+.Q7--float-side .Q7--textbox:first-child{
   float: left;
   margin-right: 50px;
 }
-.q7--float .q7__box:last-child{
+.Q7--float-side .Q7--textbox:last-child{
   float: left;
 }
 
-.q7--table .q7__inner{
+.Q7--table-side .Q7--innerbox{
   display: table;
   font-size: 16px;
 }
-.q7--table .q7__box{
+.Q7--table-side .Q7--textbox{
   width: 225px;
   font-size: 16px;
   padding-left: 50px;
   display: table-cell;
   vertical-align: middle;
 }
-.q7--table .q7__box:first-child{
+.Q7--table-side .Q7--textbox:first-child{
   padding-left: 0;
 }
 
-.q7--inlineblock .q7__inner{
+.Q7--inlineblock-side .Q7--innerbox{
   font-size: 0;
 }
-.q7--inlineblock .q7__box{
+.Q7--inlineblock-side .Q7--textbox{
   width: 225px;
   font-size: 16px;
   display: inline-block;
@@ -45,35 +45,35 @@
   margin-left: 50px;
   box-sizing: border-box;
 }
-.q7--inlineblock .q7__box:first-child{
+.Q7--inlineblock-side .Q7--textbox:first-child{
   margin-left: 0;
 }
 
-.q7--flex .q7__inner{
+.Q7--flex-side .Q7--innerbox{
   display: flex;
   justify-content: space-around;
   align-items: flex-end;
 }
-.q7--flex .q7__box{
+.Q7--flex-side .Q7--textbox{
   width: 225px;
   font-size: 16px;
   box-sizing: border-box;
 }
-.is-full{
+.Q7--full{
   font-size: 0;
 }
 
-.q7--margin .q7__box:first-child{
+.Q7--margin-side .Q7--textbox:first-child{
   width: 300px;
   font-size: 16px;
   display: inline-block;
   vertical-align: top;
 }
-.q7--margin .q7__box__text:first-child{
+.Q7--margin-side .Q7--text:first-child{
   margin-left: 0;
   box-sizing: border-box;
 }
-.q7--margin .q7__box:last-child{
+.Q7--margin-side .Q7--textbox:last-child{
   width: 100%;
   font-size: 16px;
   display: inline-block;
