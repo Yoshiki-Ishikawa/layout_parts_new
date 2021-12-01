@@ -9,7 +9,7 @@
   overflow: hidden;
   cursor: pointer;
 }
-.q8-hover .q8-car {
+.q8-car {
   transition: all 0.5s;
 }
 .q8-hover:hover .q8-car {
@@ -19,7 +19,7 @@
   position: absolute;
   bottom: 0;
 }
-.q8-hover .q8-anime {
+.q8-anime {
   position: absolute;
   bottom: 0;
   left: 0;
@@ -30,7 +30,7 @@
   word-break: break-all;
   box-sizing: border-box;
 }
-.q8-hover .q8-text {
+.q8-text {
   position: absolute;
   bottom: -100%;
   left: 0;
